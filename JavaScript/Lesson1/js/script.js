@@ -1,13 +1,5 @@
 'use strict';
 
-let incr = 10,
-    decr = 10;
-
-// incr++;
-// decr--;
-
-console.log(++incr);
-console.log(--decr);
-
-console.log(5%2);
-console.log(2*4 === '8');
+for (let i = 1; i < 8; ++i) {
+    console.log(i++);
+}
