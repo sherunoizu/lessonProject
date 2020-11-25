@@ -1,22 +1,26 @@
 "use strict";
 
-// const str = "test";
-// const arr = [1,2,4];
+function first() {
+    //Do something
+    setTimeout(function () {
+        console.log(1);
+    }, 500);
+}
 
-// console.log(arr.length);
+function second() {
+    console.log(2);
+}
 
-// const  fruit = "Some fruit";
+first();
+second();
 
-// console.log(fruit.indexOf("fruit"));
+function learnJS(lang, callback) {
+    console.log(`Я учу: ${lang}`);
+    callback();
+}
 
-const logg = "Hello World";
-const a = logg.indexOf("World"); 
-const b = logg.length;
-console.log(a,b);
-console.log(logg.substring(a,b));
+function done() {
+    console.log(`Я прошел этот урок`);
+}
 
-const num = 12.2;
-console.log(Math.round(num));
-
-const test = "12.2px";
-console.log(parseInt(test));
+learnJS('JavaSript', done);
