@@ -155,7 +155,7 @@ header a {
 
 .gallery img:hover {
 	box-shadow: 0 20px 40px rgba(0,0,0,0.3);
-	transform: scale(1.1);
+	transform: scale(1.2);
 }
 
 .footer-text {
